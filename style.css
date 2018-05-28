@@ -1,0 +1,27 @@
+.className{
+    height:50vh;
+}
+.circ{
+    fill:lime;
+}
+.rects{
+    transition: all 0.5s linear;
+}
+.rects:hover{
+    fill:#c7f010 !important;
+}
+div{
+    border:2px solid #3cb3e7 !important;
+}
+.x-axis-items{
+	transition: all 0.5s linear;
+}
+#bar-chart{
+	height: 500px;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translatey(-50%);
+	left: 0;
+    box-sizing: border-box;
+}
